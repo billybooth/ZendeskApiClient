@@ -6,11 +6,12 @@
     <TargetFrameworks>netstandard2.0;net6.0</TargetFrameworks>
     <Description>A Zendesk Api Client for use with the ZendeskApi v2</Description>
     <SignAssembly>True</SignAssembly>
-    <AssemblyOriginatorKeyFile>.\..\ZendeskApiClient.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>.\..\..\ZendeskApiClient.snk</AssemblyOriginatorKeyFile>
     <AssemblyVersion>7.0.7.0</AssemblyVersion>
     <FileVersion>7.0.7.0</FileVersion>
     <Version>7.0.7</Version>
     <LangVersion>latest</LangVersion>
+    <PackageId>$(AssemblyName).Signed</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
